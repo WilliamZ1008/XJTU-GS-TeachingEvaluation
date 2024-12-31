@@ -23,14 +23,14 @@ python app.py
 ```
 
 ### 获取研究生评教系统Cookie(Cookie1)
-首先，登录 [研究生评教系统](http://gste.xjtu.edu.cn/) (http://gste.xjtu.edu.cn/)，然后按`F12`打开开发者工具，并按如下操作复制cookie
+首先，登录 [研究生评教系统](http://gste.xjtu.edu.cn/) ( http://gste.xjtu.edu.cn/ )，然后按`F12`打开开发者工具，并按如下操作复制cookie
 
 ![cookie_1](cookie_1.png)
 
 将复制的cookie输入项目中的Cookie1栏中
 
 ### 获取研究生管理信息系统Cookie(Cookie2)
-登录 [研究生管理信息系统](http://gmis.xjtu.edu.cn/pyxx/) (http://gmis.xjtu.edu.cn/pyxx/)，并按相同的方法获取cookie，输入项目中的Cookie2栏中
+登录 [研究生管理信息系统](http://gmis.xjtu.edu.cn/pyxx/) ( http://gmis.xjtu.edu.cn/pyxx/ )，并按相同的方法获取cookie，输入项目中的Cookie2栏中
 这步获取Cookie2的原因是：获取课程信息的操作需要在研究生管理信息系统中进行，评教系统中并没有这个api
 
 ### 点击获取信息按钮
