@@ -7,7 +7,7 @@ def commit():
         crawler.commit(1, cookie_1.value, cookie_2.value)
     elif metrics.value == '自动评价四个良好':
         crawler.commit(2, cookie_1.value, cookie_2.value)
-    ui.notify('已自动填写评教', position='center')
+    ui.notify('已自动填写评教', position='center', close_button='OK')
 
 crawler = Crawler()
 
@@ -15,7 +15,7 @@ with ui.card():
     ui.markdown('研究生课程评教')
 
 with ui.row():
-    with ui.column():
+    with ui.column(align_items='end'):
         with ui.card():
             ui.icon('home')
             ui.markdown('自动评教')
@@ -25,10 +25,10 @@ with ui.row():
             ui.icon('cookie')
             ui.markdown('**Cookie区域**')
             with ui.grid(columns=2):
-                ui.markdown('请输入Cookie1')
+                ui.markdown('请输入Cookie1 (http://gste.xjtu.edu.cn/)')
                 cookie_1 = ui.input()
 
-                ui.markdown('请输入Cookie2')
+                ui.markdown('请输入Cookie2 (http://gmis.xjtu.edu.cn/pyxx/)')
                 cookie_2 = ui.input()
 
             ui.separator()
