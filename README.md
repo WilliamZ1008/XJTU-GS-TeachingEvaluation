@@ -1,4 +1,4 @@
-### XJTU-GS-Teaching-Evalutation
+### XJTU-GS-TeachingEvalutation
 研究生自动评教系统
 
 ## 项目简介
