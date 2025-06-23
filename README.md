@@ -12,12 +12,12 @@
 
 ## 使用方法
 
-### 安装依赖
+### 安装依赖 (如果下载的是release版本这一步可以省略)
 ```shell
 pip install nicegui beautifulsoup4
 ```
 
-### 运行项目
+### 运行项目 (如果下载的是release版本这一步可以省略)
 ```shell
 python app.py
 ```
