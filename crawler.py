@@ -29,7 +29,7 @@ class Crawler:
         content = 'graph LR;'
         for item in self.classes:
             content += '\n'
-            content += '\t课程 --> ' + item['kcmc'].replace('（', '**').replace('）', '**') + '_' + item['jsxm'].replace(' ', '-') + ';'
+            content += '\t课程 --> ' + item['kcmc'].replace('（', '**').replace('）', '**').replace('、', '-').replace(' ', '-') + '_' + item['jsxm'].replace(' ', '-') + ';'
 
         return content
 

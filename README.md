@@ -2,7 +2,7 @@
 研究生自动评教系统
 
 ## 项目简介
-> 项目的格式来源于 [wangerforcs](https://github.com/wangerforcs)。
+> 项目的格式来源于 [wangerforcs](https://github.com/wangerforcs/XJTU-Annual-Eat)。
 
 本项目是一个自动评教系统，通过爬虫实现，可以一键完成评教
 
@@ -35,7 +35,7 @@ python app.py
 这步获取Cookie2的原因是：获取课程信息的操作需要在研究生管理信息系统中进行，评教系统中并没有这个api
 
 ### 点击获取信息按钮
-点击获取信息按钮，查看目前需要评教的课程
+点击获取信息按钮，查看目前需要评教的课程，点击后需要多次点击刷新按钮跳出课程信息
 ![get_info](get_info.png)
 
 ### 填写选项
